@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #000033;
+}
+
+.MisDatos {
+	width: 400px;
+	background-color: lightblue;
+	padding: 15px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 20px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 2px 4px 15px #eee8e8;
+}
+.MisDatos h4 {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+.caja{
+	width: 100%;
+	background-color: #c7e8e1;
+	padding: 10px;
+	border: 1px solid #616a6b;
+	border-radius: 7px;
+	margin-bottom: 16px;
+	font-family: 'calibri';
+	font-size: 16px;
+}
+
+.botones{
+	width: 100%;
+	background-color: #f9e593;
+	border: none;
+	padding: 12px;
+	color: black;
+	margin: 16px 0;
+	font-size: 16px;
+	font-family: 'calibri';
+}

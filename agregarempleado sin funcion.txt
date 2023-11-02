@@ -1,0 +1,22 @@
+<?php
+// recibir los  datos  y almacenar  en variables
+include 'basedatos.php';
+$nombre = $_POST["empleado_nombre"];
+$edad = $_POST["empleado_edad"];
+//consulta para insertar
+$insertar = "INSERT INTO empleado (nombre, edad) VALUES ('$nombre', '$edad')";
+//ejecutar consulta  
+$resultado = mysqli_query ( $conexion, $insertar);
+if (!$resultado){
+    echo 'Error al registrarse ';
+
+} else {
+    echo 'Usuario registrado con exito';
+}
+//cerrar conexion
+mysqli_close( $conexion);
+
+
+
+
+?>
